@@ -12,15 +12,21 @@
 
 <body>
     <header>
-
+        <div class="flex justify-between items-center my-6 mx-5 px-7 bg-sky-100	rounded-md">
+            <div>
+                <h1 class="text-5xl font-semibold">Interactive</h1>
+                <h4 class="text-2xl">Geometry Genius</h4>
+            </div>
+            <button class="btn btn-primary">Blog</button>
+        </div>
     </header>
     <main>
         <!-- container -->
-        <div class="w-full flex flex-col lg:flex-row">
+        <div class="w-calc(100% - 20px) flex flex-col gap-3 mx-5 lg:flex-row">
             <!-- shapes container -->
-            <div class="w-full flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:w-3/4 gap-6">
+            <div class="w-full flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:w-3/4 gap-3">
                 <!-- Triangle card  -->
-                <div class="card w-96 bg-base-100 shadow-xl">
+                <div class="card bg-base-100 border-2">
                     <figure class="px-10 pt-10">
                         <img src="./images/triangle.png" alt="Shoes" />
                     </figure>
@@ -40,7 +46,7 @@
                     </div>
                 </div>
                 <!-- Rectangle card  -->
-                <div class="card w-96 bg-base-100 shadow-xl">
+                <div class="card bg-base-100 border-2">
                     <figure class="px-10 pt-10">
                         <img src="./images/rectangle.png" alt="Shoes"  />
                     </figure>
@@ -60,7 +66,7 @@
                     </div>
                 </div>
                 <!-- Parallelogram card  -->
-                <div class="card w-96 bg-base-100 shadow-xl">
+                <div class="card bg-base-100 border-2">
                     <figure class="px-10 pt-10">
                         <img src="./images/parallelogram.png" alt="Shoes"  />
                     </figure>
@@ -80,7 +86,7 @@
                     </div>
                 </div>
                 <!-- Rhombus card  -->
-                <div class="card w-96 bg-base-100 shadow-xl">
+                <div class="card bg-base-100 border-2">
                     <figure class="px-10 pt-10">
                         <img src="./images/rhombus.png" alt="Shoes"  />
                     </figure>
@@ -100,7 +106,7 @@
                     </div>
                 </div>
                 <!-- Pentagon card  -->
-                <div class="card w-96 bg-base-100 shadow-xl">
+                <div class="card bg-base-100 border-2">
                     <figure class="px-10 pt-10">
                         <img src="./images/pentagon.png" alt="Shoes"  />
                     </figure>
@@ -120,7 +126,7 @@
                     </div>
                 </div>
                 <!-- Ellipse card  -->
-                <div class="card w-96 bg-base-100 shadow-xl">
+                <div class="card bg-base-100 border-2">
                     <figure class="px-10 pt-10">
                         <img src="./images/ellipse.png" alt="Shoes"  />
                     </figure>
@@ -142,9 +148,8 @@
                 
             </div>
             <!-- area calculator -->
-            <div>
-                <div class="w-full text-4xl lg:w-3/12">Area Calculator</div>
-
+            <div class="w-full lg:w-3/12 text-center border-2 rounded-xl">
+                <div class="text-4xl mt-6 underline">Area Calculator</div>
             </div>
         </div>
     </main>

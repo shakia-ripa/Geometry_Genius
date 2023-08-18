@@ -11,12 +11,8 @@ function calculateRectangleArea(){
     setAreaOfShape('rectangle-area', area);
 }
 function calculateParallelogramArea(){
-    // get triangle base
     const base = returnInputFieldValue('parallelogram-base');
-
-    // get triangle base
     const height = returnInputFieldValue('parallelogram-height');
-
     const area = base* height;
     setAreaOfShape('parallelogram-area', area);
 }
