@@ -99,43 +99,43 @@
                         </div>
                     </div>
                 </div>
-                <!-- Rectangle card  -->
+                <!-- Pentagon card  -->
                 <div class="card w-96 bg-base-100 shadow-xl">
                     <figure class="px-10 pt-10">
-                        <img src="./images/rectangle.png" alt="Shoes"  />
+                        <img src="./images/pentagon.png" alt="Shoes"  />
                     </figure>
                     <div class="card-body items-center text-center">
-                        <h2 class="card-title">Rectangle</h2>
-                        <p>Area (A) = w x l</p>
+                        <h2 class="card-title">Pentagon</h2>
+                        <p>Area (A) = 0.5 x p x b</p>
                         <p>
-                            <input type="text" class="border w-24 px-2 bg-gray-200 rounded" id="rectangle-width" placeholder="width">
+                            <input type="text" class="border w-24 px-2 bg-gray-200 rounded" id="pentagon-p" placeholder="p">
                             <span>cm</span>
-                            <input type="text" class="ml-4 border w-24 px-2 bg-gray-200 rounded" id="rectangle-length" placeholder="length">
+                            <input type="text" class="ml-4 border w-24 px-2 bg-gray-200 rounded" id="pentagon-b" placeholder="b">
                             <span>cm</span>
                         </p>
-                        <p class="text-2xl">Area: <span class="font-bold" id="rectangle-area">0</span> cm<sup>2</sup></p>
+                        <p class="text-2xl">Area: <span class="font-bold" id="pentagon-area">0</span> cm<sup>2</sup></p>
                         <div class="card-actions w-full ">
-                            <button onclick="calculateRectangleArea()" class="btn btn-primary w-full px-6">Calculate</button>
+                            <button onclick="calculatePentagonArea()" class="btn btn-primary w-full px-6">Calculate</button>
                         </div>
                     </div>
                 </div>
-                <!-- Rectangle card  -->
+                <!-- Ellipse card  -->
                 <div class="card w-96 bg-base-100 shadow-xl">
                     <figure class="px-10 pt-10">
-                        <img src="./images/rectangle.png" alt="Shoes"  />
+                        <img src="./images/ellipse.png" alt="Shoes"  />
                     </figure>
                     <div class="card-body items-center text-center">
-                        <h2 class="card-title">Rectangle</h2>
-                        <p>Area (A) = w x l</p>
+                        <h2 class="card-title">Ellipse</h2>
+                        <p>Area (A) = 3.1416 x a x b</p>
                         <p>
-                            <input type="text" class="border w-24 px-2 bg-gray-200 rounded" id="rectangle-width" placeholder="width">
+                            <input type="text" class="border w-24 px-2 bg-gray-200 rounded" id="ellipse-a" placeholder="a">
                             <span>cm</span>
-                            <input type="text" class="ml-4 border w-24 px-2 bg-gray-200 rounded" id="rectangle-length" placeholder="length">
+                            <input type="text" class="ml-4 border w-24 px-2 bg-gray-200 rounded" id="ellipse-b" placeholder="b">
                             <span>cm</span>
                         </p>
-                        <p class="text-2xl">Area: <span class="font-bold" id="rectangle-area">0</span> cm<sup>2</sup></p>
+                        <p class="text-2xl">Area: <span class="font-bold" id="ellipse-area">0</span> cm<sup>2</sup></p>
                         <div class="card-actions w-full ">
-                            <button onclick="calculateRectangleArea()" class="btn btn-primary w-full px-6">Calculate</button>
+                            <button onclick="calculateEllipseArea()" class="btn btn-primary w-full px-6">Calculate</button>
                         </div>
                     </div>
                 </div>
@@ -148,6 +148,7 @@
             </div>
         </div>
     </main>
+    <script src="./js/utilities.js"></script>
     <script src="./js/area-calculate.js"></script>
 </body>
 
