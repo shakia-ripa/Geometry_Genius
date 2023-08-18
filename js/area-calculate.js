@@ -33,5 +33,6 @@ function calculateEllipseArea(){
     const a =  returnInputFieldValue('ellipse-a');
     const b =  returnInputFieldValue('ellipse-b');
     const area = Math.PI * a * b;
-    setAreaOfShape('ellipse-area', area);
+    const areaTwoDecimal = area.toFixed(2);
+    setAreaOfShape('ellipse-area', areaTwoDecimal);
 }
