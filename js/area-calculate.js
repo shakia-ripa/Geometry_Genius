@@ -32,6 +32,6 @@ function calculatePentagonArea(){
 function calculateEllipseArea(){
     const a =  returnInputFieldValue('ellipse-a');
     const b =  returnInputFieldValue('ellipse-b');
-    const area = 3.1416 * a * b;
+    const area = Math.PI * a * b;
     setAreaOfShape('ellipse-area', area);
 }
