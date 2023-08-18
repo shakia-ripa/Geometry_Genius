@@ -10,6 +10,9 @@ function returnInputFieldValue(fieldId){
     }
 }
 function setAreaOfShape(field, value){
-    const areaSpan = document.getElementById(field);
+    if(!isNaN(value)){
+        const areaSpan = document.getElementById(field);
     areaSpan.innerText = value;
+    }
+    
 }
